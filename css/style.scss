@@ -1,0 +1,302 @@
+$smedex-rot: #DC0000;
+$smedex-rot-dark: #C50000;
+$smedex-bg-grey: rgba(0,0,0,.41);
+$smedex-light-grey: #F9F9F9;
+$smedex-medium-grey: #BBBBBB; //Text
+$smedex-dark-grey: #979797;
+$smedex-darkest-grey: #797979;
+$smedex-even-darker-grey: #6C6C6C;
+$almost-white: #F9F9F9;
+
+h3 {
+	font-family: MuseoSans-300;
+	font-weight: normal;
+	font-style: normal;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	font-size: 22px;
+}
+p {
+	font-family: MuseoSans-100;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.5em;
+	margin-bottom: 20px;
+}
+html,body {
+	font-family: 'Museo Sans', 'Helvetica Neue', sans-serif;
+	background-color: $almost-white;
+}
+body { padding-bottom: 70px; }
+a.thumbnail:hover {
+	border: 1px solid $smedex-rot;
+}
+.userbar {
+	background: $smedex-dark-grey;
+	height: 50px;
+	border: 0px;
+	color: white;
+}
+.userbar .navbar-text {
+	color: white;
+	font-family: MuseoSans-300;
+	font-weight: normal;
+	font-style: normal;
+	margin-right: 5px;
+	margin-left: 0px;
+}
+.userbar .navbar-form, .userbar .navbar-btn {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+.userbar .navbar-form .form-control {
+	height: 25px;
+	color: $smedex-dark-grey;
+	border-radius: 0px;
+	border: 0px;
+	width: 135px;
+	padding-left: 25px;
+	margin-right: 15px;
+	font-family: MuseoSans-300;
+	font-weight: normal;
+	font-style: normal;
+}
+.userbar .form-control-feedback {
+	color: $smedex-dark-grey;
+	left: -3px;
+	line-height: 25px;
+}
+.userbar .forgot-password {
+	margin-left: 20px;
+	color: white;
+	font-family: MuseoSans-300;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.has-feedback .form-control {
+padding-right: 15px;
+}
+.btn {
+	border-radius: 0px;
+	padding: 3px 10px;
+	letter-spacing: 0.8px;
+	position: relative;
+	height: 30px;
+	line-height: 23px;
+	font-family: MuseoSans-300;
+	font-weight: normal;
+	font-style: normal;
+}
+p .btn {
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+.btn.btn-icon .fa {
+	background: rgba(0,0,0,0.1);
+	margin: 0px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: auto;
+	height: 100%;
+	padding: 7px 10px;
+}
+.btn.btn-icon {
+	padding-left: 42px;
+}
+.btn-xs.btn-icon .fa {
+	padding: 5px 8px;
+}
+.btn-xs.btn-icon {
+	padding-left: 38px;
+}
+.btn-xs {
+	font-family: MuseoSans-300;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 12px;
+	height: 25px;
+	line-height: 20px;
+}
+.btn-xs .fa {
+	font-size: 14px;
+}
+.btn-lg {
+	font-family: MuseoSans-300;
+	font-weight: normal;
+	font-style: normal;
+	padding: 10px 15px;
+	height: 40px;
+	line-height: 20px;
+}
+.btn-lg.btn-icon .fa {
+	font-size: 20px;
+	padding: 10px 15px;
+}
+.btn-lg.btn-icon {
+	padding-left: 55px;
+}
+.btn-red {
+	background-color: $smedex-rot;
+	color: white;
+}
+.btn-red:hover {
+	background-color: $smedex-rot-dark;
+	color: white;
+}
+.btn-grey {
+	background-color: $smedex-darkest-grey;
+}
+.btn-grey:hover {
+	background-color: $smedex-even-darker-grey;
+	color: white;
+}
+.marketing-header {
+	background-position: bottom center;
+	background-size: cover;
+	padding-bottom: 0px;
+	background-color: white;
+	margin-bottom: 0px;
+}
+.marketing-header .container {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.marketing-header .logo {
+	margin-bottom: 40px;
+	float: left;
+	width: 100%;
+}
+.marketing-header h1 {
+	color: white;
+	font-size: 36px;
+	font-family: MuseoSans-300;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.3em;
+	margin-bottom: 40px;
+}
+span.red {
+	color: $smedex-rot;
+}
+
+
+
+
+.home-form {
+	background: white;
+	box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.02);
+	padding: 40px;
+	position: relative;
+	width: 100%;
+	top: 0px;
+}
+
+@media (min-width: 992px) {
+.home-container .col-md-3 {
+	margin-right: 38px;
+}
+.home-form {
+	top: -150px;
+}
+}
+
+@media (min-width: 1200px) {
+.home-container .col-md-3 {
+	margin-right: 48px;
+}
+}
+.home-form h2 {
+	color: $smedex-rot;
+	font-size: 26px;
+	font-family: MuseoSans-300;
+	font-weight: normal;
+	font-style: normal;
+	margin-top: 0px;
+}
+.home-form h3 {
+	margin-top: 0px;
+}
+.home-form .btn {
+	margin-top: 20px;
+}
+.naked-form .form-control {
+	font-family: MuseoSans-300;
+	font-weight: normal;
+	font-style: normal;
+	color: $smedex-medium-grey;
+	border-radius: 0px;
+	border: 0px;
+	border-bottom: 1px solid $smedex-medium-grey;
+	box-shadow: none;
+}
+.naked-form .form-control:focus {
+	color: black;
+	border-bottom: 1px solid black;
+}
+.footernav {
+	background-color: $almost-white;
+	box-shadow: 0px -2px 0px 0px rgba(0,0,0,0.02);
+	border: 0px;
+}
+.footernav .social-link {
+	font-size: 20px;
+	margin-right: 10px;
+}
+.footernav .social-link:hover {
+	text-decoration: none;
+}
+.footernav .panel {
+	float: left;
+	margin: 5px;
+	margin-bottom: 0px;
+}
+.footernav .panel-group {
+	margin-bottom: 0px;
+}
+.footernav .panel-group .panel+.panel {
+	margin: 5px;
+	margin-bottom: 0px;
+}
+.footernav .panel-default {
+	border: 0px;
+	background: transparent;
+	box-shadow: none;
+}
+.footernav .panel-default>.panel-heading {
+	color: black;
+	background-color: transparent;
+	border: 0px;
+}
+.footernav .panel>.list-group, .panel>.panel-collapse>.list-group {
+	margin-bottom: 10px;
+}
+.footernav .list-group-item {
+	border: 0px;
+	background: transparent;
+	padding: 3px 15px;
+	font-family: MuseoSans-300;
+	font-weight: normal;
+	font-style: normal;
+
+}
+.footernav .list-group-item a {
+	color: black;
+}
+.footernav .list-group-item a:hover {
+	color: $smedex-rot;
+	text-decoration: none;
+}
+.footernav .panel-group .panel-heading+.panel-collapse>.panel-body, .panel-group .panel-heading+.panel-collapse>.list-group {
+border: 0px;
+}
+.footernav .unternehmen {
+	width: 114px;
+}
+.footernav .panel-title a:hover{
+	color: $smedex-rot;
+	text-decoration: none;
+}
