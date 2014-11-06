@@ -23,15 +23,40 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7229,
+				"buffer_size": 9497,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "smedex.sublime-project",
+			"settings":
+			{
+				"buffer_size": 237,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "smedex.sublime-workspace",
+			"settings":
+			{
+				"buffer_size": 7632,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/script.js",
+			"settings":
+			{
+				"buffer_size": 935,
+				"line_ending": "Unix",
+				"name": "$(function() {"
 			}
 		},
 		{
 			"file": "css/style.scss",
 			"settings":
 			{
-				"buffer_size": 4490,
+				"buffer_size": 5537,
 				"line_ending": "Unix"
 			}
 		},
@@ -106,10 +131,14 @@
 	[
 		"/Users/michaelziorjen/GitHub/smedex-marketing",
 		"/Users/michaelziorjen/GitHub/smedex-marketing/css",
-		"/Users/michaelziorjen/GitHub/smedex-marketing/images"
+		"/Users/michaelziorjen/GitHub/smedex-marketing/images",
+		"/Users/michaelziorjen/GitHub/smedex-marketing/css",
+		"/Users/michaelziorjen/GitHub/smedex-marketing/images",
+		"/Users/michaelziorjen/GitHub/smedex-marketing/js"
 	],
 	"file_history":
 	[
+		"/Users/michaelziorjen/GitHub/kollect/kollect.sublime-workspace"
 	],
 	"find":
 	{
@@ -144,7 +173,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -153,15 +182,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7229,
+						"buffer_size": 9497,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6284,
-								6284
+								1721,
+								1721
 							]
 						],
 						"settings":
@@ -170,6 +199,18 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -185,27 +226,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 136.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "css/style.scss",
+					"file": "smedex.sublime-project",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4490,
+						"buffer_size": 237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4267,
-								4267
+								0,
+								0
 							]
 						],
 						"settings":
@@ -221,6 +262,147 @@
 									"selector": "text.html"
 								}
 							],
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "smedex.sublime-workspace",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7632,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								504,
+								504
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"auto_name": "$(function() {",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5271,
+								5271
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
 							"auto_name": "",
 							"incomplete_sync": null,
 							"remote_loading": false,
@@ -229,14 +411,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3007.0,
+						"translation.y": 3190.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 5,
 					"file": "css/smedex-fonts.css",
 					"semi_transient": false,
 					"settings":
@@ -263,6 +445,18 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
 								}
 							],
 							"incomplete_sync": null,
@@ -274,7 +468,7 @@
 						"translation.y": 159.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]

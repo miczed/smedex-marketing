@@ -4,6 +4,18 @@
 		{
 			"follow_symlinks": true,
 			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "css"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "images"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "js"
 		}
 	]
 }

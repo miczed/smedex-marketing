@@ -14,6 +14,31 @@ p {
   line-height: 1.5em;
   margin-bottom: 20px; }
 
+.sub-container h1 {
+  font-family: MuseoSans-300;
+  font-size: 36px;
+  color: #DC0000;
+  line-height: 50px;
+  margin-top: 40px;
+  margin-bottom: 0px; }
+.sub-container h2 {
+  font-family: MuseoSans-300;
+  font-size: 24px;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+.sub-container h1 + h2 {
+  font-family: MuseoSans-300;
+  font-size: 24px;
+  color: #000000;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  /* Wir wachsen mit Ihne: */ }
+.sub-container h3 {
+  margin-top: 0px; }
+.sub-container .red {
+  color: #DC0000; }
+
 html, body {
   font-family: 'Museo Sans', 'Helvetica Neue', sans-serif;
   background-color: #F9F9F9; }
@@ -146,23 +171,23 @@ p .btn {
   background-color: #6C6C6C;
   color: white; }
 
-.marketing-header {
+.marketing-header, .sub-header {
   background-position: bottom center;
   background-size: cover;
   padding-bottom: 0px;
   background-color: white;
   margin-bottom: 0px; }
 
-.marketing-header .container {
+.marketing-header .container, .sub-header .container {
   padding-top: 40px;
   padding-bottom: 40px; }
 
-.marketing-header .logo {
+.marketing-header .logo, .sub-header .logo {
   margin-bottom: 40px;
   float: left;
   width: 100%; }
 
-.marketing-header h1 {
+.marketing-header h1, .sub-header h1 {
   color: white;
   font-size: 36px;
   font-family: MuseoSans-300;
@@ -171,8 +196,39 @@ p .btn {
   line-height: 1.3em;
   margin-bottom: 40px; }
 
+.sub-header .logo {
+  margin-bottom: 20px; }
+
 span.red {
   color: #DC0000; }
+
+.breadcrumbs {
+  background-color: white;
+  border-top: 1px solid #DFDFDF;
+  border-bottom: 1px solid #DFDFDF;
+  padding: 5px 0px;
+  margin-bottom: 0px; }
+
+.breadcrumbs .breadcrumb {
+  margin-bottom: 0px;
+  background: transparent;
+  font-family: MuseoSans-300;
+  font-size: 16px;
+  color: #000000;
+  line-height: 19px;
+  padding: 8px 0px; }
+
+.breadcrumbs .breadcrumb a {
+  color: black; }
+
+.breadcrumbs .breadcrumb .active {
+  color: #DC0000; }
+
+.breadcrumb > li + li:before {
+  padding: 0 10px;
+  color: black;
+  font: normal normal normal 13px/1 FontAwesome;
+  content: "\f0da"; }
 
 .home-form {
   background: white;
@@ -181,6 +237,14 @@ span.red {
   position: relative;
   width: 100%;
   top: 0px; }
+
+.home-form .more {
+  color: black;
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: MuseoSans-300;
+  font-weight: normal;
+  font-style: normal; }
 
 @media (min-width: 992px) {
   .home-container .col-md-3 {
@@ -220,7 +284,7 @@ span.red {
   border-bottom: 1px solid black; }
 
 .footernav {
-  background-color: #F9F9F9;
+  background-color: white;
   box-shadow: 0px -2px 0px 0px rgba(0, 0, 0, 0.02);
   border: 0px; }
 
@@ -280,5 +344,26 @@ span.red {
 .footernav .panel-title a:hover {
   color: #DC0000;
   text-decoration: none; }
+
+.sub-container .team {
+  background: transparent;
+  border: 0px;
+  margin-bottom: 50px;
+  border-top: 1px solid #DC0000;
+  border-radius: 0px;
+  border-bottom: 1px solid #DC0000;
+  float: left;
+  padding: 0px; }
+  .sub-container .team img {
+    float: left;
+    margin-right: 20px; }
+  .sub-container .team h3 {
+    color: #DC0000;
+    margin-top: 30px; }
+  .sub-container .team p {
+    font-size: 17px;
+    margin-bottom: 0px; }
+  .sub-container .team .caption {
+    float: left; }
 
 /*# sourceMappingURL=style.css.map */

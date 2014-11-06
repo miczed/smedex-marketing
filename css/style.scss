@@ -24,11 +24,46 @@ p {
 	line-height: 1.5em;
 	margin-bottom: 20px;
 }
+
+.sub-container {
+	h1 {
+		font-family: MuseoSans-300;
+		font-size: 36px;
+		color: #DC0000;
+		line-height: 50px;
+		margin-top: 40px;
+		margin-bottom: 0px;
+	}
+	h2 {
+		font-family: MuseoSans-300;
+		font-size: 24px;
+		color: #000000;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	h1+h2 {
+		font-family: MuseoSans-300;
+		font-size: 24px;
+		color: #000000;
+		margin-top: 0px;
+		margin-bottom: 30px;
+		/* Wir wachsen mit Ihne: */
+	}
+	h3 {
+		margin-top: 0px;
+	}
+	.red {
+		color: $smedex-rot;
+	}
+
+}
+
 html,body {
 	font-family: 'Museo Sans', 'Helvetica Neue', sans-serif;
 	background-color: $almost-white;
 }
 body { padding-bottom: 70px; }
+
 a.thumbnail:hover {
 	border: 1px solid $smedex-rot;
 }
@@ -179,11 +214,45 @@ p .btn {
 	line-height: 1.3em;
 	margin-bottom: 40px;
 }
+.sub-header {
+	@extend .marketing-header;
+}
+.sub-header .logo {
+	margin-bottom: 20px;
+}
 span.red {
 	color: $smedex-rot;
 }
 
-
+.breadcrumbs {
+	background-color: white;
+	border-top: 1px solid #DFDFDF;
+	border-bottom: 1px solid #DFDFDF;
+	padding: 5px 0px;
+	margin-bottom: 0px;
+}
+.breadcrumbs .breadcrumb {
+	margin-bottom: 0px;
+	background: transparent;
+	font-family: MuseoSans-300;
+	font-size: 16px;
+	color: #000000;
+	line-height: 19px;
+	padding: 8px 0px;
+}
+.breadcrumbs .breadcrumb a {
+	color: black;
+}
+.breadcrumbs .breadcrumb .active {
+	color: $smedex-rot;
+}
+.breadcrumb>li+li:before {
+padding: 0 10px;
+color: black;
+//content: "/\00a0";
+font: normal normal normal 13px/1 FontAwesome;
+content: "\f0da";
+}
 
 
 .home-form {
@@ -193,6 +262,14 @@ span.red {
 	position: relative;
 	width: 100%;
 	top: 0px;
+}
+.home-form .more {
+	color: black;
+	margin-top: 30px;
+	font-size: 18px;
+	font-family: MuseoSans-300;
+	font-weight: normal;
+	font-style: normal;
 }
 
 @media (min-width: 992px) {
@@ -238,7 +315,7 @@ span.red {
 	border-bottom: 1px solid black;
 }
 .footernav {
-	background-color: $almost-white;
+	background-color: white;
 	box-shadow: 0px -2px 0px 0px rgba(0,0,0,0.02);
 	border: 0px;
 }
@@ -299,4 +376,30 @@ border: 0px;
 .footernav .panel-title a:hover{
 	color: $smedex-rot;
 	text-decoration: none;
+}
+.sub-container .team {
+	background: transparent;
+	border: 0px;
+	margin-bottom: 50px;
+	border-top: 1px solid $smedex-rot;
+	border-radius: 0px;
+	border-bottom: 1px solid $smedex-rot;
+	float: left;
+	padding: 0px;
+
+	img {
+		float: left;
+		margin-right: 20px;
+	}
+	h3 {
+		color: $smedex-rot;
+		margin-top: 30px;
+	}
+	p {
+		font-size: 17px;
+		margin-bottom: 0px;
+	}
+	.caption {
+		float: left;
+	}
 }
